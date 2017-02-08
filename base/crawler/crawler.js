@@ -11,7 +11,6 @@ http.get(url,function(res){
         html += data;
     })
     res.on('end',function(){
-        "use strict";
         console.log(html);
     })
 }).on('error',function(){
